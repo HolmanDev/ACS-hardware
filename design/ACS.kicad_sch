@@ -9261,12 +9261,6 @@
 		(uuid "502471aa-1436-4971-bb94-df0771d99148")
 	)
 	(junction
-		(at 232.41 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57f40f48-a1dd-40b9-88be-9ea9866e9ca5")
-	)
-	(junction
 		(at 102.87 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9303,6 +9297,12 @@
 		(uuid "630a2103-fd58-4409-a00d-13a0cd73b105")
 	)
 	(junction
+		(at 231.14 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "636e7460-3bfe-453a-a7d7-b8546afa7e95")
+	)
+	(junction
 		(at 347.98 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9325,6 +9325,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6876a4d8-ecea-41cd-bea6-b57551a5eb0c")
+	)
+	(junction
+		(at 233.68 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6abc4f21-d0ae-4fe6-b721-7e9bb872f7e0")
 	)
 	(junction
 		(at 116.84 195.58)
@@ -10518,16 +10524,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 203.2) (xy 233.68 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31928065-2313-4e07-878b-21449424fb22")
-	)
-	(wire
-		(pts
 			(xy 133.35 152.4) (xy 133.35 153.67)
 		)
 		(stroke
@@ -11628,7 +11624,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 203.2) (xy 232.41 203.2)
+			(xy 231.14 203.2) (xy 233.68 203.2)
 		)
 		(stroke
 			(width 0)
@@ -13025,6 +13021,16 @@
 			(type default)
 		)
 		(uuid "bf02444f-d664-4255-9be7-1ad5dec9cb43")
+	)
+	(wire
+		(pts
+			(xy 224.79 203.2) (xy 231.14 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0ac0a3-71c8-4d15-b4db-bb0fd4feff5f")
 	)
 	(wire
 		(pts
@@ -16309,6 +16315,72 @@
 			(project "ACS"
 				(path "/7be06de6-fc21-4b76-a5c8-2a235dbbd876"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 224.79 203.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31e03dab-4dc8-43f5-ade7-061a0b96e56d")
+		(property "Reference" "TP5"
+			(at 226.314 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 226.314 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 219.71 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 224.79 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eacc24aa-fc05-459d-a0ac-dca8a80c3705")
+		)
+		(instances
+			(project "ACS"
+				(path "/7be06de6-fc21-4b76-a5c8-2a235dbbd876"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -21308,7 +21380,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 232.41 203.2 0)
+		(at 233.68 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21317,7 +21389,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1df3a0d-547c-472c-8381-a4ac11d12a7f")
 		(property "Reference" "#PWR019"
-			(at 232.41 209.55 0)
+			(at 233.68 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21326,7 +21398,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 232.41 208.28 0)
+			(at 233.68 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21335,7 +21407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 203.2 0)
+			(at 233.68 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21344,7 +21416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 203.2 0)
+			(at 233.68 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21353,7 +21425,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 232.41 203.2 0)
+			(at 233.68 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
