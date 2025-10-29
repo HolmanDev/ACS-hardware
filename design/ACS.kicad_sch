@@ -9052,16 +9052,6 @@
 		)
 		(uuid "e64c9312-57d4-4c4a-9d55-2ce4587edf6c")
 	)
-	(text "Should SHIELD \nbe floating?"
-		(exclude_from_sim no)
-		(at 294.894 176.784 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f346751a-a99f-4c49-ab5e-4b020ad91e24")
-	)
 	(junction
 		(at 375.92 52.07)
 		(diameter 0)
@@ -9693,6 +9683,12 @@
 		(uuid "e802f864-cb96-419d-aa7e-0f38a8294c0f")
 	)
 	(junction
+		(at 304.8 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaa14d52-890d-43f6-b6a3-60ffad1d96bf")
+	)
+	(junction
 		(at 153.67 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9741,10 +9737,6 @@
 	(no_connect
 		(at 246.38 143.51)
 		(uuid "21b33308-5fee-44cb-a588-17affca4d53e")
-	)
-	(no_connect
-		(at 297.18 172.72)
-		(uuid "2df555b2-c779-47bd-94f3-4f35887aea5b")
 	)
 	(no_connect
 		(at 246.38 148.59)
@@ -10641,6 +10633,16 @@
 			(type default)
 		)
 		(uuid "3c6a4164-eee5-4901-aeba-5b3dbc2425d2")
+	)
+	(wire
+		(pts
+			(xy 297.18 172.72) (xy 304.8 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb8091a-8a3c-4ec8-bb2d-e8256794c6b9")
 	)
 	(wire
 		(pts
